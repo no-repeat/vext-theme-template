@@ -1,7 +1,7 @@
-{% for compName in themeVariables %}
+{% for compName in variables %}
 
 // ------------------------ {{compName}} ------------------------ //
-{% for variable in themeVariables[compName] %}
+{% for variable in variables[compName] %}
 {{variable.name}}: {{variable.value | safe}} !default;
 {% endfor %}
 
