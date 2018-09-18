@@ -1,0 +1,8 @@
+{% for compName in themeVariables %}
+
+// ------------------------ {{compName}} ------------------------ //
+{% for variable in themeVariables[compName] %}
+{{variable.name}}: {{variable.value | safe}} !default;
+{% endfor %}
+
+{% endfor %}
