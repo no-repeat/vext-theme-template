@@ -1,13 +1,8 @@
-{% for key, value in variables %}
+{% for compName, compGroup in variables %}
 
-{{key}}
-{{value}}
-
+// ------------------------ {{compName}} ------------------------ //
+{% for variable in compGroup %}
+{{variable.name}}: {{variable.value | safe}} !default;
 {% endfor %}
-
-
-{% for key in variables %}
-
-{{key}}
 
 {% endfor %}
