@@ -18,8 +18,9 @@
 * version: 主题包版本
 * author: 作者
 * theme: 主题
-* themeVariables: 变量
-* designToken: token
+* library: 基础库
+* variables: 变量
+* tokens: token
 
 ## 模板语法
 

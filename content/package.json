@@ -23,7 +23,8 @@
     "webpack-cli": "^2.1.4"
   },
   "dependencies": {
-    "vue": "^2.x"
+    "vue": "^2.x",
+    "{{library.npm}}": "^{{library.version}}"
   },
   "license": "ISC"
 }
