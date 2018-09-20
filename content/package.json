@@ -26,5 +26,8 @@
     "vue": "^2.x",
     "{{library.npm}}": "^{{library.version}}"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
